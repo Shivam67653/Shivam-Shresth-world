@@ -46,6 +46,34 @@ const About = () => {
 
   <div className='mt-8 grid grid-cols-1 md:grid-cols-2 gap-10 text-slate-700'>
 
+    {/* LeetCode Achievement */}
+    <div className='bg-white shadow-md rounded-xl p-6 border border-slate-200'>
+      <div className='flex items-center gap-3'>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+          alt="LeetCode"
+          className="w-7 h-7 object-contain"
+        />
+        <h4 className='text-lg font-semibold text-yellow-500'>LeetCode</h4>
+      </div>
+      <ul className='mt-4 space-y-2 text-sm'>
+        <li><strong>Rating:</strong> 1731</li>
+        <li><strong>Total Problems Solved:</strong> 150+</li>
+        <li><strong>Top: </strong> 10.88% </li>
+        <li><strong>Contribution: </strong> Python & C++ </li>
+        <li>
+          <a 
+            href="https://leetcode.com/u/Shivam_Shresth/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-1.5 px-4 rounded-lg transition duration-300"
+          >
+            View LeetCode Profile
+          </a>
+        </li>
+      </ul>
+    </div>
+
     {/* Code360 Achievement */}
 <div className='bg-white shadow-md rounded-xl p-6 border border-slate-200'>
   <div className='flex items-center gap-3'>
@@ -74,34 +102,6 @@ const About = () => {
   </ul>
 </div>
 
-
-    {/* LeetCode Achievement */}
-    <div className='bg-white shadow-md rounded-xl p-6 border border-slate-200'>
-      <div className='flex items-center gap-3'>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
-          alt="LeetCode"
-          className="w-7 h-7 object-contain"
-        />
-        <h4 className='text-lg font-semibold text-yellow-500'>LeetCode</h4>
-      </div>
-      <ul className='mt-4 space-y-2 text-sm'>
-        <li><strong>Rating:</strong> 1431</li>
-        <li><strong>Total Problems Solved:</strong> 90+</li>
-        <li><strong>Acceptance: </strong> 73.22% </li>
-        <li><strong>Contribution: </strong> Python & C++ </li>
-        <li>
-          <a 
-            href="https://leetcode.com/u/Shivam_Shresth/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-1.5 px-4 rounded-lg transition duration-300"
-          >
-            View LeetCode Profile
-          </a>
-        </li>
-      </ul>
-    </div>
 
 
   </div>
